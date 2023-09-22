@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    border: 2px solid;
+    height: 120px;
+    background-color: #252525;
+}
+
+#header h1 {
+    color: white;
+    text-align: center;
+    font-size: 350%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.search {
+    position: relative;
+    left: 500px;
+}
+
+.dtl {
+    background-color: #46acc2;
+    padding: 30px;
+    color: white;
+}
+
+.dtl input {
+    border-radius: 20px;
+    border-color: #46acc2;
+    padding: 15px;
+    width: 400px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn:hover {
+    border: 2px solid white;
+    color: white;
+}
+
